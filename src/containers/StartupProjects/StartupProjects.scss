@@ -50,6 +50,9 @@
   box-shadow: 0px 20px 30px -10px $darkBoxShadow;
 }
 .project-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   height: 250px;
   overflow: hidden;
