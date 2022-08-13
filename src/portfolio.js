@@ -25,8 +25,9 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / MongoDB and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  // resumeLink:
+  //   "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "", 
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -139,10 +140,10 @@ const educationInfo = {
       subHeader: "Bachelors of Science in Computer Science",
       duration: "September 2017 - Janurary 2021",
       desc: "Participated in projects releted to web development, blockchain and web3",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
       schoolName: "Fazaia Degree College",
@@ -150,7 +151,7 @@ const educationInfo = {
       subHeader: "Major in compoter science descipline",
       duration: "March 2016 - March 2017",
       desc: "Ranked top 10% in the program. Took courses about Programming Basics, Software Engineering, Web Development, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -186,25 +187,25 @@ const workExperiences = {
       company: "Ideofuzion",
       companylogo: require("./assets/images/ideofuzion-logo.png"),
       date: "Sep 2021 – Present",
-      desc: "Ideofuzion is a leading blockchain company where I work as a Frontend developer and a web3 and smart contract integrations.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "Ideofuzion is a leading blockchain company where I work as a Frontend developer and a web3 and smart contract integrations developer.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
       role: "Frontend Enginner",
       company: "Ropstam",
       companylogo: require("./assets/images/ropstam-logo.jpeg"),
       date: "Mar 2021 – August 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Ropstam is a multinational company, providing it's services in Pakistan and Canada, I had been working there as a Frontend Developer mainly in React.js and Vue.js."
     },
     {
       role: "Software Engineer Intern",
       company: "Flex Lab",
       companylogo: require("./assets/images/flex-lab-logo.png"),
       date: "Jan 2020 – Jan 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Flex Lab is a growing startup where I was trained as a Software Engineer exploring both frontend and backend technologies and some other cool libraries and frameworks."
     }
   ]
 };
